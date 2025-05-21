@@ -114,14 +114,14 @@ export const StartCountdownButton = styled(BaseCountdownButton)`
 `
 
 export const StopCountdownButton = styled(BaseCountdownButton)`
-  background-color: ${({ theme }) => theme.colors.feedback[100]};
+  background-color: ${({ theme }) => theme.colors.feedback.interrupt[100]};
 
   &:not(:disabled):hover {
-    background-color: ${({ theme }) => theme.colors.feedback[200]};
+    background-color: ${({ theme }) => theme.colors.feedback.interrupt[200]};
   }
 
   &:disabled {
-    background-color: ${({ theme }) => theme.colors.feedback[200]};
+    background-color: ${({ theme }) => theme.colors.feedback.interrupt[200]};
     opacity: 0.5;
   }
 `
